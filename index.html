@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="أخبار العالم والعربية بتصميم عصري ومفصل">
+    <title>أخبار العالم والعربية</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #0066cc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 8px solid #005bb5;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #004d99;
+        }
+
+        nav a {
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s, border-bottom 0.3s;
+            border-bottom: 3px solid transparent;
+        }
+
+        nav a:hover {
+            background-color: #003d7a;
+            border-bottom: 3px solid #ffffff;
+        }
+
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .main {
+            flex: 2;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .sidebar {
+            flex: 1;
+            background-color: #e9ecef;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .article {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .article img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .article h2 {
+            margin-top: 0;
+            color: #004d99;
+        }
+
+        .ad-space {
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .ad-space iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+        }
+
+        footer {
+            background-color: #0066cc;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            border-top: 8px solid #005bb5;
+        }
+
+        .social-links {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 24px;
+        }
+
+        .social-links a:hover {
+            color: #e6e6e6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>أخبار العالم والعربية</h1>
+    </header>
+    <nav>
+        <a href="#world">عالمية</a>
+        <a href="#local">محلية</a>
+        <a href="#arab">عربية</a>
+    </nav>
+    <div class="container">
+        <div class="main">
+            <section id="world">
+                <h2>الأخبار العالمية</h2>
+                <div class="article">
+                    <img src="https://via.placeholder.com/800x400" alt="أزمة الغذاء في أفريقيا">
+                    <h3>أزمة الغذاء في أفريقيا</h3>
+                    <p>تفاصيل حول أزمة الغذاء المتفاقمة في أفريقيا وتأثيرها على الاقتصاد المحلي. تستمر الأزمة في تصعيد تأثيرها السلبي على حياة الملايين في مختلف الدول الأفريقية، مما يستدعي جهوداً دولية عاجلة للتعامل مع هذا التحدي الكبير.</p>
+                    <a href="#">اقرأ المزيد</a>
+                </div>
+                <div class="article">
+                    <img src="https://via.placeholder.com/800x400" alt="التطورات السياسية في أوروبا">
+                    <h3>التطورات السياسية في أوروبا</h3>
+                    <p>تقرير شامل عن أحدث التطورات السياسية في قارة أوروبا وما ينتظرها في المستقبل القريب. يشمل التقرير تحليل الوضع السياسي الحالي وأثره على العلاقات الدولية والتجارة العالمية.</p>
+                    <a href="#">اقرأ المزيد</a>
+                </div>
+            </section>
+            <section id="local">
+                <h2>الأخبار المحلية</h2>
+                <div class="article">
+                    <img src="https://via.placeholder.com/800x400" alt="مشروع التنمية في القاهرة">
+                    <h3>مشروع التنمية في القاهرة</h3>
+                    <p>تفاصيل عن مشاريع التنمية الكبرى التي يتم تنفيذها في القاهرة وأثرها على المدينة. يشمل المشروع تحسين البنية التحتية وتطوير المناطق السكنية لتعزيز جودة الحياة في العاصمة المصرية.</p>
+                    <a href="#">اقرأ المزيد</a>
+                </div>
+                <div class="article">
+                    <img src="https://via.placeholder.com/800x400" alt="تطوير البنية التحتية في الرياض">
+                    <h3>تطوير البنية التحتية في الرياض</h3>
+                    <p>أحدث التطورات في مشاريع البنية التحتية في الرياض وتأثيرها على جودة الحياة. يشمل ذلك مشاريع جديدة لتحسين النقل والطرق وتطوير المناطق الحضرية.</p>
+                    <a href="#">اقرأ المزيد</a>
+                </div>
+            </section>
+            <section id="arab">
+                <h2>أخبار الدول العربية</h2>
+                <!-- مصر -->
+                <div class="article">
+                    <img src="https://via.placeholder.com/800x400" alt="مؤتمر الشباب في مصر">
+                    <h3>مصر: مؤتمر الشباب 2024</h3>
+                    <p>مؤتمر الشباب في مصر هذا العام ناقش العديد من المواضيع الهامة بما في ذلك التعليم والابتكار. حضر المؤتمر عدد كبير من الشباب المصريين وقدموا رؤاهم حول تطوير المستقبل.</p>
+                    <a href="#">اقرأ المزيد</a>
+                </div>
+                <!-- السعودية -->
+                <div class="article">
+                    <img src="https://via.placeholder.com/800x400" alt="مشروع نيوم">
+                    <h3>السعودية: مشروع نيوم</h3>
+                    <p>التفاصيل حول مشروع نيوم الطموح وأهدافه المستقبلية لابتكار مدينة ذكية ومجتمعات مستدامة. يشمل المشروع تطوير منطقة اقتصادية جديدة تهدف إلى تحقيق تطورات تكنولوجية ضخمة.</p>
+                    <a href="#">اقرأ المزيد</a>
+                </div>
+                <!-- الإمارات -->
+                <div class="article">
+                    <img src="https://via.placeholder.com/800x400" alt="معرض إكسبو 2024">
+                    <h3>الإمارات: معرض إكسبو 2024</h3>
+                    <p>تحليل لأحدث الأحداث والمعارض التي تجري في الإمارات وكيفية تأثيرها على السياحة والاقتصاد. يشمل المعرض العديد من الفعاليات التي تعزز الابتكار والتعاون الدولي.</p>
+                    <a href="#">اقرأ المزيد</a>
+                </div>
+                <!-- الأردن -->
+                <div class="article">
+                    <img src="https://via.placeholder.com/800x400" alt="الإصلاحات الاقتصادية في الأردن">
+                    <h3>الأردن: الإصلاحات الاقتصادية</h3>
+                    <p>مراجعة للإصلاحات الاقتصادية التي يتم تطبيقها في الأردن وكيفية تأثيرها على الاقتصاد المحلي. تشمل الإصلاحات تحسينات في قطاعات متعددة بهدف تعزيز الاستدامة الاقتصادية.</p>
+                    <a href="#">اقرأ المزيد</a>
+                </div>
+                <!-- لبنان -->
+                <div class="article">
+                    <img src="https://via.placeholder.com/800x400" alt="أزمة الطاقة في لبنان">
+                    <h3>لبنان: أزمة الطاقة</h3>
+                    <p>نظرة على أزمة الطاقة في لبنان والخطوات التي تتخذها الحكومة لمعالجة هذه الأزمة. يتناول التقرير الت
